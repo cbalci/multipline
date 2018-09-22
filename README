@@ -1,0 +1,14 @@
+
+Summary:
+	multipline is a trivial cmdline utility which reads stdin
+	line by line and writes each line to stdout 'n' times.
+
+Installation:
+	go get github.com/cbalci/multipline
+
+Usage:
+	$>echo "turok help!" | multipline 3
+	turok help!
+	turok help!
+	turok help!
+
